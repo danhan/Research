@@ -1,2 +1,5 @@
 Logging as a service
 1.kafka, storm and ES
+
+Reference:
+1) Logstash alternatives: https://sematext.com/blog/2016/09/13/logstash-alternatives/
