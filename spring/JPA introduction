@@ -1,0 +1,6 @@
+JPA introduction
+1. http://docs.spring.io/spring-data/data-commons/docs/1.6.1.RELEASE/reference/html/repositories.html
+2. https://spring.io/blog/2011/02/10/getting-started-with-spring-data-jpa/
+
+Initialize the database
+http://docs.spring.io/spring-boot/docs/current/reference/html/howto-database-initialization.html
