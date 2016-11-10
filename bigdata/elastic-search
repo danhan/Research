@@ -1,2 +1,35 @@
-Logging as a service
+http://www.slideshare.net/AmazonWebServices/infrastructure-at-scale-apache-kafka-twitter-storm-elastic-search-arc303-aws-reinvent-2013
+=Logging as a service=
 1.kafka, storm and ES
+
+Chanllenges
+1. Massive incoming event stream
+2. Fundamentally multi-tanant
+3. Scalable framework for analysis
+4. Near real-time indexing
+5. Time series index management
+
+==Take away==
+1. It uses Collector, kafka, storm, kafka, elastic search
+2. The instance configuration of kafka (memory-optimized) and storm
+
+=what I learned: ELK=
+1. ElasticSearch
+2. Logstash
+ * Data Normalization tool (Collect, Enrich & transport data)
+ * Fast track option for time consuming ETL
+ * Normalize any type of log (system log, web service log, error log, app log etc) irrespective of data source like Apache or IIS
+
+ =Elastic Search walkthrough=
+ http://www.slideshare.net/suhel11/elastic-search-walkthrough
+
+ It introduces the APIs.
+
+ = Data modeling in ES =
+ http://www.slideshare.net/fhopf/data-modeling-for-elasticsearch
+
+ =Networking Peroformance Vision Data =
+ http://www.slideshare.net/SecurActive/how-to-create-custom-dashboard-in-elastic-search-kibanna-with-performance-vision-data?qid=a5628982-a5a8-4f6e-8720-b63faca2fd50&v=&b=&from_search=18
+
+ Intoduced a docker-based opensource tool: HotRod: 
+ https://github.com/panoptix-za/HotRod

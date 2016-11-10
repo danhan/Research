@@ -1,0 +1,8 @@
+=Monitoring=
+
+http://chennaihug.org/knowledgebase/yahoo-kafka-manager/
+
+https://github.com/yahoo/kafka-manager
+
+=Version=
+The kafka has to use the same version as kafka-client, 0.10.0.0
