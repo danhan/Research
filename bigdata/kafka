@@ -10,3 +10,7 @@ The kafka has to use the same version as kafka-client, 0.10.0.0
 = Kafka Stream= 
 Introducing Kafka Streams: Stream Processing Made Simple
 https://www.confluent.io/blog/introducing-kafka-streams-stream-processing-made-simple/
+
+＝Integration with Flink =
+Demo: How to write and read data with Flink to Kakfa
+http://data-artisans.com/kafka-flink-a-practical-how-to/

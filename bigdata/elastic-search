@@ -36,3 +36,6 @@ Chanllenges
 
  Intoduced a docker-based opensource tool: HotRod: 
  https://github.com/panoptix-za/HotRod
+
+ = Import data from MySQL to elasticsearch =
+ use logstash https://www.elastic.co/guide/en/logstash/master/plugins-inputs-jdbc.html
