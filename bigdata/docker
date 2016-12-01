@@ -1,0 +1,8 @@
+Download docker for mac
+1. docker pull ubuntu
+2. docker run -it ubuntu bash
+3. docker ps
+4. docker attach
+dettach: ctrl+p+q
+docker rmi mysql
+commit configuration: docker commit <container_name> <tag name>

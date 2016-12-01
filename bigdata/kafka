@@ -7,6 +7,11 @@ https://github.com/yahoo/kafka-manager
 =Version=
 The kafka has to use the same version as kafka-client, 0.10.0.0
 
+=Confluent Kafka=
+Kafka compare with other version: https://www.confluent.io/product/compare
+kafka Connector https://www.confluent.io/product/connectors
+
+
 = Kafka Stream= 
 Introducing Kafka Streams: Stream Processing Made Simple
 https://www.confluent.io/blog/introducing-kafka-streams-stream-processing-made-simple/
@@ -14,3 +19,22 @@ https://www.confluent.io/blog/introducing-kafka-streams-stream-processing-made-s
 ＝Integration with Flink =
 Demo: How to write and read data with Flink to Kakfa
 http://data-artisans.com/kafka-flink-a-practical-how-to/
+
+= Integration with logstash=
+Output data from Kafka to logstash
+http://blog.csdn.net/yesuhuangsi/article/details/51954346
+
+input {
+  kafka {
+    bootstrap_servers => "localhost:9092"
+    topics => ["beats"]
+  }
+}
+output {
+  elasticsearch {
+    hosts => ["localhost:9200"]
+    index => "elasticse"
+  }
+}
+
+https://www.elastic.co/blog/logstash-kafka-intro

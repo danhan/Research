@@ -1,0 +1,17 @@
+1 deep learning ; 在VC上好，但是在nLP上不好，是因为文字和数字。
+2 distant supervision： 在label data不够时，如何进行random的选择没有label的来进行自动的进行label
+3 multiple topics：大domain下面的小domain进行到train，获得model，然后
+4. 学习出来的model，就是要学习写作模版
+5. 跟编辑聊，1） 然后进行domain划分 2）enineering feature，发文时间（早上，中午，晚上），有图／无图
+
+deep learning 
+1）也是有监督学习
+2）需要大量的学习数据
+3）出来的是deep learning model 而不是classifier（vector）
+4）也还是跟数据相关
+5）也许可以学习出写作模版？？？？
+
+machine learning
+1）label的数据一定要分为三种：training，validate，test
+2）training时候有一些参数输入和真正的文档，在validate里面就是调参数的过程，在test下面是来比较model的正确性
+3）如果label data不够的时候，可以考虑distant supervision的方式来添加更多的training data
